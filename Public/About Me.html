@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cihan Mustafa Ay - About Me</title>
+    <link rel="stylesheet" href="aboutmestyle.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background-color: #ffffff00;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .header:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+       
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .section {
+            flex: 1;
+            min-width: 300px;
+            background-color: #ffffff00;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .section:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+
+        b {
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+
+        p {
+            color: #666;
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+
+        .date {
+            color: #95a5a6;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .skill-item {
+            background-color: #ffffff00;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .language-level {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 15px;
+            background-color: #3498db;
+            color: white;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+
+        .education-list li {
+            background-color: #ffffff00;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .language-list li {
+            background-color: #ffffff00;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Cihan Mustafa Ay</h1>
+        <h2>About Me</h2>
+    </div>
+
+    <div class="content-container">
+        <div class="section">
+            <h2>My Education</h2>
+            <ul class="education-list">
+                <li>
+                    <b>Canakkale 18th March University - History</b>
+                    <p class="date">2013-2018</p>
+                </li>
+                <li>
+                    <b>Arel University - Tourist Guide</b>
+                    <p class="date">2019-2021</p>
+                </li>
+                <li>
+                    <b>Anatolia University - Web Design/Coding</b>
+                    <p class="date">2018-2020</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>My Skills</h2>
+            <ul>
+                <li class="skill-item">
+                    <b>Blender</b>
+                    <p>I can create 3D models, animations, and visual effects using Blender, leveraging its powerful tools for creative design.</p>
+                </li>
+                <li class="skill-item">
+                    <b>Microsoft Office</b>
+                    <p>I am skilled in creating professional documents, spreadsheets, and presentations using Microsoft Office tools like Word, Excel, and PowerPoint.</p>
+                </li>
+                <li class="skill-item">
+                    <b>Adobe Illustrator</b>
+                    <p>I can design vector graphics, logos, and illustrations with precision using Adobe Illustrator's features.</p>
+                </li>
+                <li class="skill-item">
+                    <b>Adobe Photoshop</b>
+                    <p>I am experienced in photo editing, compositing, and creating digital artwork using Adobe Photoshop's tools.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <ul class="language-list">
+                <li>
+                    <b>English</b><span class="language-level">Advanced</span>
+                    <p>I've used my English skills by conducting international training sessions/plans and worked with several colleagues all around the world with no issues.</p>
+                </li>
+                <li>
+                    <b>German</b><span class="language-level">Beginner</span>
+                    <p>Currently learning German as a hobby.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
