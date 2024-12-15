@@ -15,13 +15,10 @@ body {
     background-color: #ffffff; 
     border-radius: 10px; 
     box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
-
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin: 20px auto;
+    width: 52%;
     transition: box-shadow 0.3s ease;
-    margin-bottom: 80px;
 }
 
 .align-mid:hover {
@@ -34,7 +31,8 @@ body {
     justify-content: space-evenly;
     gap: 100px;
     padding: 70px;
-    margin-top: 200px;
+    margin-top: 20px;
+    
 }
 
 .first, .second, .third {
@@ -68,5 +66,18 @@ a {
 
 a:hover {
     color: #555; 
+}
+
+@media screen and (max-width: 768px) {
+    .bottom-content {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .first, .second, .third {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
